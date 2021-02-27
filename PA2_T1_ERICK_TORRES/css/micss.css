@@ -1,0 +1,230 @@
+.bg-1{
+    background-image: url(../img/img-bg-banner-ced-mvp.jpg);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr 1fr;
+    grid-template-rows: 80px 1fr 80px 800px 100px;
+    /*background-color: firebrick;*/
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.fondo{
+    grid-column: 1/5;
+    grid-row: 1;
+    background-color: #f8f9fa;
+    height: 60px;
+
+}
+
+.logo{
+    grid-column: 1/1;
+    grid-row: 1;
+    /*background-color: wheat;*/
+    height: 60px;
+    margin-left: 20px;
+
+}
+
+.menu{
+    grid-column: 2/5;
+    grid-row: 1/1;
+    /*background-color: tomato;*/
+    height: 60px;
+    font-size: 18px;
+    color: gray;
+    position: relative;
+    margin-left: 15%;
+
+}
+#posicion{
+
+    position: absolute;
+    float: right;
+}
+
+#color{
+    color: black;
+}
+
+.historia{
+    color: white;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    /*background-color: violet;*/
+    margin-top: 290px;
+    margin-left: 20px;
+    margin-right: 20%;
+}
+
+.historia > p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.video{
+    grid-column: 2/5;
+    grid-row: 2/2;
+    position: relative;
+    margin-top: 10%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /*background-color: dimgray;*/
+}
+.espacio{
+  grid-column: 1/5;
+  grid-row: 3;
+  height: 50px;
+  
+}
+
+
+.fondo-2{
+    grid-column: 1/5;
+    grid-row: 4/4;
+    background-color: white;
+}
+
+hr{
+  grid-column: 1/1;
+  grid-row: 4/4;
+  width: 30%;
+  background-color: rgb(0, 0, 0);
+  align-content: flex-end;
+  margin-left: 20%;
+  margin-top: 22%;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+
+}
+
+.contacto{
+  grid-column: 2/2;
+  grid-row: 4/4;
+  margin-top: 50%;
+  margin-right: 20%;
+}
+.formulario{
+  grid-column: 3/5;
+  grid-row: 4/4;
+  margin-top: 10%;
+  margin-bottom: 30%;
+    padding: 3em;
+    width: 90%;
+    height: 70%;
+    background-color: black;
+    box-shadow: 10px 5px 30px black;
+  
+}
+
+.fondo-black-f{
+    grid-column: 3/5;
+    grid-row: 4/4;
+    
+}
+
+footer{
+    grid-column: 1/5;
+    grid-row: 5/5;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.contenedor-footer{
+    display: grid;
+    grid-template-columns: 1fr 30% 10%;
+    margin: 2em;
+    color: white;
+}
+
+input{
+
+    width: 30%;
+    margin: 1%;
+}
+
+textarea{
+    margin: 1%;
+    width: 100%;
+}
+
+.btn-form{
+    margin: 1%;
+    background: transparent;
+    border: white 2px solid;
+    border-radius: 3px;
+    color: white;
+    padding: 1%;
+    width: 20%;
+}
+
+.btn-form:hover{
+background: rgb(238, 51, 19);
+border: transparent;
+}
+
+.redes{
+    float: right;
+   margin-right: 1em;
+}
+
+.bg{
+    background-color: white;
+}
+
+
+.ubica-bt{
+    float: right;
+}
+
+.mostrar{
+
+    background-color: grey;
+    padding-top: 4em;
+    margin: 30px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+.guardar{
+    background-color: rgb(57, 231, 135);
+    padding: 1em;
+    height: auto;
+
+
+}
+
+
+li{
+    display: inline-block;
+    margin-left: 2%;
+    
+}
+
+
+
+.logo{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+}
+
+.menu2 {
+    background-color: rgb(230, 230, 230);
+    padding-top: 1em;
+    align-items: center;
+    
+
+}
+
+
+
